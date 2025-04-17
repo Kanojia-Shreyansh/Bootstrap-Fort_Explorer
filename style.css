@@ -1,0 +1,103 @@
+/* Apply body styles and background */
+/* Apply classic fonts */
+body {
+    font-family: 'EB Garamond', serif;
+    background-color: #FEF9F2;
+    color: #2c2c2c;
+    line-height: 1.7;
+  }
+  
+  h1, h2, h3, h4, h5, h6, .navbar-brand {
+    font-family: 'Young Serif', serif;
+  }
+  
+  .card-title, .carousel-caption h3 {
+    font-family: 'Young Serif', serif;
+    font-size: 1.5rem;
+  }
+  
+  button, .form-control, .navbar, .card-text, label, input, textarea {
+    font-family: 'EB Garamond', serif;
+  }
+  
+  
+  /* Navbar */
+  .navbar {
+    background-color: #051b4b !important; /* Blue */
+  }
+  .navbar-brand {
+    font-family: 'MedievalSharp', cursive;
+    font-size: 1.8rem;
+  }
+  .navbar .form-control {
+    border-radius: 0.5rem;
+  }
+  .navbar .btn {
+    background-color: #FFE3E3;
+    color: #3e2723;
+    border: none;
+  }
+  .navbar .btn:hover {
+    background-color: #C9E9D2;
+  }
+  
+  /* Carousel */
+  .carousel-item img {
+    height: 500px;
+    object-fit: cover;
+  }
+  .carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4); /* semi-transparent black bg */
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  
+  /* Fort cards */
+  .medieval-card {
+    background-color: #FFE3E3; /* Light pink */
+    border: 2px solid #789DBC;
+    border-radius: 12px;
+    transition: transform 0.3s;
+  }
+  .medieval-card:hover {
+    transform: scale(1.03);
+  }
+  .card-title {
+    color: #4e342e;
+    font-weight: bold;
+  }
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Contact section */
+  #contact {
+    background-color: #C9E9D2; /* Green */
+    border-top: 4px solid #789DBC;
+  }
+  #contact label {
+    font-weight: bold;
+  }
+  #contact .btn {
+    background-color: #789DBC; /* Blue */
+    border: none;
+  }
+  #contact .btn:hover {
+    background-color: #4b6f91;
+    color: #fff;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #789DBC;
+    color: white;
+  }
+  
